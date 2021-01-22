@@ -5,6 +5,7 @@
   <title></title>
   <link rel="stylesheet" href="style.css">
   <img>
+  <h1>Salmon Cookies</h1>
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -16,33 +17,58 @@
 </head>
 
 <body>
-  <table style="width:50%">
-    <tbody id="table-body">
-      <th>Sales 2020</th>
-      <tr>
-        Seattle
-        <td id="seattleTable"></td>
-      </tr>
-      <th></th>
-      <tr>
-        Tokyo
-        <td id="tokyoTable"></td>
-      </tr>
-      <tr>
-        Dubai
-        <td id="dubaiTable"></td>
-      </tr>
-      <tr>
-        Paris
-        <td id="parisTable"></td>
-      </tr>
-      <tr>
-        Lima
-        <td id="limaTable"></td>
-      </tr>
-
-    </tbody>
-  </table>
+  <div>
+    <table style="width:50%">
+      <tbody id="table-body">
+        <th>Sales 2020</th>
+        <tr>
+          Seattle
+          <td id="seattleTable"></td>
+        </tr>
+        <th></th>
+        <tr>
+          Tokyo
+          <td id="tokyoTable"></td>
+        </tr>
+        <tr>
+          Dubai
+          <td id="dubaiTable"></td>
+        </tr>
+        <tr>
+          Paris
+          <td id="parisTable"></td>
+        </tr>
+        <tr>
+          Lima
+          <td id="limaTable"></td>
+        </tr>
+      </tbody>
+    </table>
+    <section id="sec">
+      <form id="add-location">
+        <fieldset>
+          Add a New Cookie Stand!
+          <label>
+            Store Name
+            <input type="text" id="nameStore" name="storeName" placeholder="Store Name Here">
+          </label>
+          <label>
+            Store Location
+            <input type="text" id="storeLocation" name="location" placeholder="Address">
+          </label>
+          <label>
+            Email
+            <input type="email" id="storeEmail" name="emailAddress">
+          </label>
+          <label>
+            Phone Number
+            <input type="text" id="storeNumber" name="phoneNumber" placeholder="Phone Number">
+          </label>
+        </fieldset>
+        <button type="submit">Apply</button>
+      </form>
+    </section>
+  </div>
   <script src="app.js"></script>
 </body>
 
