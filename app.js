@@ -139,3 +139,21 @@ var lima = {
 lima.renderToDom();
 
 
+var inputElement = document.getElementById('add-location')
+
+inputElement.addEventListener('input', function (event) {
+  console.log(event.target);
+  console.log(event.target.value);
+});
+
+
+
+var formElement = document.getElementById('add-location');
+
+formElement.addEventListener('submit'), function (event) {
+  event.preventDefault();
+  console.log(event.target.storeName.value);
+  console.log(event.target.location.value);
+  console.log(event.target.emailAddress.value);
+  console.log(event.target.phoneNumber.value);
+}

@@ -58,3 +58,22 @@ div {
 #fam {
   width: 500px;
 }
+
+h1 {
+  text-align: center;
+}
+
+label {
+  color:rgb(1, 129, 233);
+  text-shadow:black;
+}
+
+fieldset {
+  color:rgb(1, 129, 233);
+  text-align:start;
+}
+
+section {
+  align-content: center;
+}
+
